@@ -1,3 +1,12 @@
+  <div className={classes.proImg}> Profile Img</div>
+                <div className={classes.flexInfo} >
+                    <div>account</div>
+                    <div>name</div>
+                    <div>chain</div>
+                </div>
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,50 @@
+.red {
+    background-color: red;
+}
+.proImg {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.flexContainer {
+  display: flex;
+  flex-direction: row;   
+  background-color: DodgerBlue;
+  height: 20vh;
+}
+.flexInfo {
+     display: flex;
+    flex-direction: column;
+    background-color: dodgerblue;
+    flex-grow: 1
+
+}
+.flexImg {
+    flex-direction: col;
+    background-color: orange;
+}
+.flexRow {
+    flex-direction: row;
+}
+.red {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    flex-grow: 1
+
+}
+.blue {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    flex-grow: 1
+
+}
+.yellow {
+    background-color: yellow;
+    flex-grow: 1
+}
+.green {
+    background-color: green;
+    flex-grow: 1
+}
