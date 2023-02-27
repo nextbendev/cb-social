@@ -1,0 +1,14 @@
+.card {
+    width: 10px;
+    background-color: white;
+    margin: 5px;
+}
+.nftImg {
+    height: 30px;
+}
+.nftDisp {
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+}

@@ -11,48 +11,52 @@ const Nav = (props) => {
                     <div className={classes.yellow}>Info</div>
                 </div>
             </div>
-            <div>
-            <ul class="nav flex-column">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <h3>Crypto</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                    <th scope="col">Chain</th>
+                    <th scope="col">Token</th>
+                    <th scope="col">Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <th scope="row">Ethereum</th>
+                    <td>Eth</td>
+                    <td>1</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">Avax</th>
+                    <td>AVAX</td>
+                    <td>40</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">BSC</th>
+                    <td>BNB</td>
+                    <td >2</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>NFT's</h3>
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Avax NFT's owned
+                    <span class="badge bg-primary rounded-pill">14</span>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">JoePegs</a>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Eth NFT's owned
+                    <span class="badge bg-primary rounded-pill">2</span>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://opensea.io/collection/avaxcryptobroskis">OpenSea Avax</a>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Matic NFT's owned
+                    <span class="badge bg-primary rounded-pill">1</span>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://opensea.io/collection/officialcryptobroskis">OpenSea Eth</a>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Dao Member
+                    <span class="badge bg-primary rounded-pill">Yes</span>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://looksrare.org/collections/0xeAa7Aa689eec0e3Ceb70E288d23e01E874a98E5c">LooksRare</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contract</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Post's</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Friend's</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Games</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Wallet</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Nfts</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">DAO</a>
-                </li>
-               
-                
-                </ul>
-            </div>
+            </ul>
         </nav>
         
         

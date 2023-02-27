@@ -20,7 +20,7 @@
 
 }
 .flexImg {
-    flex-direction: col;
+    flex-direction: column;
     background-color: orange;
 }
 .flexRow {
