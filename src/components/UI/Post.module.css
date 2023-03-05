@@ -1,0 +1,64 @@
+.proImg {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.flexContainer {
+  display: flex;
+  flex-direction: column;   
+  background-color: aqua;
+}
+.flexInfo {
+     display: flex;
+    flex-direction: column;
+    background-color: dodgerblue;
+    flex-grow: 1
+
+}
+.flexImg {
+    flex-direction: column;
+    background-color: orange;
+}
+.flexRow {
+    flex-direction: row;
+}
+.red {
+    display: flex;
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.yellow {
+    display: flex;
+    flex-grow: 1;
+    background-color: yellow;
+    
+}
+.green {
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    margin-bottom: 10px;
+    
+}
+
+.postBox {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    padding: 2;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.postInput {
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+.postImg {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}

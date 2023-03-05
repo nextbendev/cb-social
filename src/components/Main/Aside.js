@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 const Aside = (props) => {
+ 
     return (
         <aside> 
             <div>
@@ -23,7 +24,7 @@ const Aside = (props) => {
                     <a class="nav-link" href="#">Contract</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Post's</a>
+                    <a class="nav-link" href="#" onclick="setArticlePage('PostFeed')">Post's</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Friend's</a>
