@@ -1,5 +1,20 @@
 import React, { useState } from "react";
+
+
+
 const Aside = (props) => {
+
+    const postClickHandler = () => {
+        if (!props.showPosts) {
+            props.dispPosts()
+            console.log("show")
+        }else {
+            props.hidePosts()
+            console.log("hide")
+        }
+    };
+ 
+   
  
     return (
         <aside> 
@@ -12,6 +27,10 @@ const Aside = (props) => {
                     <a class="nav-link" href="#">JoePegs</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" onClick={postClickHandler}>JoePegs</a>
+                </li>
+                
+                <li class="nav-item">
                     <a class="nav-link" href="https://opensea.io/collection/avaxcryptobroskis">OpenSea Avax</a>
                 </li>
                 <li class="nav-item">
@@ -23,9 +42,7 @@ const Aside = (props) => {
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contract</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" onclick="setArticlePage('PostFeed')">Post's</a>
-                </li>
+                
                 <li class="nav-item">
                     <a class="nav-link" href="#">Friend's</a>
                 </li>

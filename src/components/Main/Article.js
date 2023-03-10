@@ -10,7 +10,7 @@ const Article = (props) => {
             <article className={classes.flexContainer}>
                 <PostBox/>
 
-                <PostFeed/>
+                {props.showPosts && <PostFeed/>}
                
             </article>
     )
