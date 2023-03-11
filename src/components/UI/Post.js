@@ -1,6 +1,6 @@
 import React from "react";
 import classes from './PostFeed.module.css'
-const PostBox = (props) => {
+const Post = (props) => {
     return (
         <div>
             <div className={classes.postBox}> 
@@ -13,4 +13,4 @@ const PostBox = (props) => {
     )
 };
 
-export default PostBox;
+export default Post;

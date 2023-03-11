@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {Link} from 'react-router-dom';
 
 
 
@@ -7,7 +8,7 @@ const Aside = (props) => {
     const postClickHandler = () => {
         if (!props.showPosts) {
             props.dispPosts()
-            console.log("show")
+            console.log("show", props)
         }else {
             props.hidePosts()
             console.log("hide")
@@ -21,43 +22,44 @@ const Aside = (props) => {
             <div>
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <Link to="/" class="nav-link">Home</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">JoePegs</a>
+                    <Link to="/mynfts" class="nav-link">My Nft's</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" onClick={postClickHandler}>JoePegs</a>
+                    <Link to="/posts" class="nav-link">Post Feed</Link>
+                </li>
+                <li class="nav-item">
+                <Link to="/" class="nav-link">ETH Broskis</Link>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link" href="https://opensea.io/collection/avaxcryptobroskis">OpenSea Avax</a>
+                 <Link to="/" class="nav-link">Avax Broskis</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://opensea.io/collection/officialcryptobroskis">OpenSea Eth</a>
+                    <Link to="/" class="nav-link">BrokenSea</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://looksrare.org/collections/0xeAa7Aa689eec0e3Ceb70E288d23e01E874a98E5c">LooksRare</a>
+                    <Link to="/" class="nav-link">LooksRare</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contract</a>
+                    <Link to="/" class="nav-link">JoePegs</Link>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Friend's</a>
+                    <Link to="/" class="nav-link">Friends</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Games</a>
+                    <Link to="/" class="nav-link">Games</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Wallet</a>
+                    <Link to="/" class="nav-link">Wallet</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Nfts</a>
+                    <Link to="/" class="nav-link disabled">Dao</Link>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">DAO</a>
-                </li>
+               
                
                 
                 </ul>

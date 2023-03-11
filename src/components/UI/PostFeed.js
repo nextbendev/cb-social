@@ -1,10 +1,13 @@
 import React from "react";
 import classes from './PostFeed.module.css'
+import Post from "./Post";
 
 
 const PostFeed = (props) => {
+    
     return (
-        <div>            
+        <article>    
+            <Post/>        
             <div>
                 <div className={classes.green}>
                     <div>
@@ -49,7 +52,7 @@ const PostFeed = (props) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </article>
         )
     };
 
