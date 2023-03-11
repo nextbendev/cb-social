@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react';
-import logo from './logo.svg';
+import { useEffect} from 'react';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -29,8 +28,6 @@ const router = createBrowserRouter([
 
 
 function App() {
-
-
   return <RouterProvider router={router}/>;
 }
 

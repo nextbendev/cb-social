@@ -15,16 +15,14 @@ const Nav = (props) => {
             <h3>Account Info</h3>
             <ul class="list-group">
                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                    Avax NFT's owned
-                    <span class="badge bg-primary rounded-pill">14</span>
+                   CryptoBroskis
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                      Eth NFT's owned
+                     Wallet: 0x00000
                     <span class="badge bg-primary rounded-pill">2</span>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                      Matic NFT's owned
-                    <span class="badge bg-primary rounded-pill">1</span>
+                    Current Chain
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">
                       Dao Member

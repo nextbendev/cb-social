@@ -23,19 +23,19 @@ const Aside = (props) => {
             <ul class="nav flex-column">
                 <li class="nav-item">
                     <Link to="/" class="nav-link">Home</Link>
-                </li>
-                <li class="nav-item">
-                    <Link to="/mynfts" class="nav-link">My Nft's</Link>
-                </li>
                 <li class="nav-item">
                     <Link to="/posts" class="nav-link">Post Feed</Link>
                 </li>
-                <li class="nav-item">
-                <Link to="/" class="nav-link">ETH Broskis</Link>
                 </li>
-                
                 <li class="nav-item">
-                 <Link to="/" class="nav-link">Avax Broskis</Link>
+                    <Link to="/mynfts" class="nav-link">My Nft's <span class="badge bg-primary rounded-pill">140</span></Link>
+                    
+                </li>
+                <li class="nav-item">
+                <Link to="/" class="nav-link">ETH Broskis  <span class="badge bg-primary rounded-pill">75</span></Link>
+                </li>
+                <li class="nav-item">
+                 <Link to="/" class="nav-link">Avax Broskis <span class="badge bg-primary rounded-pill">15</span></Link>
                 </li>
                 <li class="nav-item">
                     <Link to="/" class="nav-link">BrokenSea</Link>
